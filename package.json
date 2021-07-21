@@ -1,0 +1,38 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "description": "website designning of online Shop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGO_USER=rajesh MONGO_PASSWORD=DVmRDU6RTIPbNs7y MONGO_DEFAULT_DATABASE=my-shop STRIPE_KEY=sk_test_51Iv1YdSAS2ptaiHDWIPX4GY4v9JUsTfwf6cujokEiz1nCsprsUG8vs9AzgBrHMfdkV6PxgFsFQsvpAGLbbExf2ts00QCzs7NGU node app.js",
+    "start:dev": "nodemon app js"
+  },
+  "author": "Rajesh Kumar Sah",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validation": "^3.0.8",
+    "express-validator": "^6.11.1",
+    "helmet": "^4.6.0",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.12.1",
+    "stripe": "^8.154.0"
+  }
+}
