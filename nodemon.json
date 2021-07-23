@@ -3,6 +3,6 @@
         "MONGO_USER": "rajesh",
         "MONGO_PASSWORD": "DVmRDU6RTIPbNs7y",
         "MONGO_DEFAULT_DATABASE": "my-shop",
-        "STRIPE_KEY": "sk_test_51Iv1YdSAS2ptaiHDWIPX4GY4v9JUsTfwf6cujokEiz1nCsprsUG8vs9AzgBrHMfdkV6PxgFsFQsvpAGLbbExf2ts00QCzs7NGU"
+        "STRIPE_KEY": "use your own stripe key"
     }
 }
